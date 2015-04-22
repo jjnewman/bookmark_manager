@@ -11,7 +11,6 @@ body {
 html, body {
   height: 100%;
 }
-/* http://ryanfait.com/resources/footer-stick-to-bottom-of-page/ */
 
 .wrapper {
   min-height: 100%;
@@ -20,26 +19,25 @@ html, body {
   margin: 0 auto -70px;
 }
 
-/* no links should be underlined */
 a {
   text-decoration: none;
   color: #b77843;
 }
 
 .button {
-  display: inline-block; /* display inline but have dimensions */
+  display: inline-block;
   width: 80px;
   cursor: pointer;
   font-size: 16px;
   background-color: #82B743;
   border: 2px solid white;
-  color: white; /*text colour*/
+  color: white; 
   padding: 5px 10px;
   text-align: center; 
-  border-radius: 4px; /*rounded corners*/
+  border-radius: 4px;
   margin-left: 5px;
   margin-right: 5px;
-  text-shadow: 0 0 2px rgba(0,0,0, 0.4); /*for readability*/
+  text-shadow: 0 0 2px rgba(0,0,0, 0.4); 
 }
 
 .button.highlighted {
@@ -55,7 +53,6 @@ header {
   padding: 0 20px;
 }
 
-/* every immediate child to be vertically centered */
 header > * {
   margin: auto 0;
 }
@@ -70,7 +67,7 @@ header a {
 }
 
 header #user-links {
-  flex: 1; /* http://learnlayout.com/flexbox.html */
+  flex: 1; 
   -webkit-flex: 1;
   text-align: right;  
 }
@@ -135,43 +132,42 @@ form {
   text-align: left;
 }
 
-  form p {
-    margin: 10px 0;
-  }
+form p {
+  margin: 10px 0;
+}
 
-  form input[type="text"], form input[type="password"] {
-    border: 1px solid black;
-    font-size: 16px;
-    width: 400px;
-  }
+form input[type="text"], form input[type="password"] {
+  border: 1px solid black;
+  font-size: 16px;
+  width: 400px;
+}
 
 footer {
   display: flex;
   display: -webkit-flex;
   background-color: rgba(0,0,0,0.2);  
-   height: 70px;
+  height: 70px;
 }
 
-  footer > * {
-    margin: auto inherit;
-  }
+footer > * {
+  margin: auto inherit;
+}
 
-  footer img {
-    vertical-align: top;
-  }
+footer img {
+  vertical-align: top;
+}
 
-  footer #technologies {
-    -webkit-flex: 1;
-    flex: 1;
-     font-size: 12px;
-     text-align: right;
+footer #technologies {
+  -webkit-flex: 1;
+  flex: 1;
+  font-size: 12px;
+  text-align: right;
+}
 
-  }
+footer p {
+  padding: 5px 25px;
+}
 
-  footer p {
-    padding: 5px 25px;
-  }
-
-    .footer, .push {
-    height: 70px;
-  }
+.footer, .push {
+  height: 70px;
+}
